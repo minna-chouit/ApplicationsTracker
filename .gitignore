@@ -1,0 +1,5 @@
+node_modules
+dist
+.claude
+# private reference notes, kept out of the public repo
+context/background.md

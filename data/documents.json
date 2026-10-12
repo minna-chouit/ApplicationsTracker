@@ -1,0 +1,22 @@
+{
+  "documents": [
+    { "id": "doc01", "title": "Passport", "stages": ["needed", "received", "scanned"], "neededFor": ["applications", "visa"] },
+    { "id": "doc02", "title": "ENSIA programme-structure attestation", "details": "Prep cycle taught inside ENSIA, 30 credits/semester, 240 by end of year 4.", "stages": ["needed", "requested", "received", "translated", "scanned"], "neededFor": ["applications"] },
+    { "id": "doc03", "title": "Class-rank attestation (attestation de classement)", "stages": ["needed", "requested", "received", "translated", "scanned"], "neededFor": ["applications"] },
+    { "id": "doc04", "title": "Transcripts years 1–3 with grading scale", "stages": ["needed", "requested", "received", "translated", "scanned"], "neededFor": ["applications"] },
+    { "id": "doc05", "title": "Attestation de scolarité 2026/27", "stages": ["needed", "requested", "received", "translated", "scanned"], "neededFor": ["applications"] },
+    { "id": "doc06", "title": "Course descriptions / syllabus (stamped)", "stages": ["needed", "requested", "received", "scanned"], "neededFor": ["applications"] },
+    { "id": "doc07", "title": "IELTS Test Report Form", "stages": ["needed", "received", "scanned"], "neededFor": ["applications", "visa"] },
+    { "id": "doc08", "title": "CV (Europass)", "stages": ["needed", "scanned"], "neededFor": ["applications"] },
+    { "id": "doc09", "title": "Motivation letters (per university)", "stages": ["needed", "scanned"], "neededFor": ["applications"] },
+    { "id": "doc10", "title": "Recommendation letters (x2)", "stages": ["needed", "requested", "received", "scanned"], "neededFor": ["applications", "scholarships"] },
+    { "id": "doc11", "title": "Baccalauréat diploma + relevé", "stages": ["needed", "received", "translated", "legalized", "scanned"], "neededFor": ["visa"] },
+    { "id": "doc12", "title": "Year-4 transcript (final)", "stages": ["needed", "requested", "received", "translated", "legalized", "scanned"], "neededFor": ["visa", "enrolment"] },
+    { "id": "doc13", "title": "CIMEA statement or Declaration of Value", "stages": ["needed", "requested", "received", "scanned"], "neededFor": ["visa", "enrolment"] },
+    { "id": "doc14", "title": "Family income/property documents (2027) for DSU", "stages": ["needed", "requested", "received", "translated", "legalized", "scanned"], "neededFor": ["scholarships"] },
+    { "id": "doc15", "title": "Proof of funds (€10,179.85) + sponsor declaration", "stages": ["needed", "received", "scanned"], "neededFor": ["visa"] },
+    { "id": "doc16", "title": "Health insurance valid in Italy", "stages": ["needed", "received", "scanned"], "neededFor": ["visa"] },
+    { "id": "doc17", "title": "Accommodation proof", "stages": ["needed", "received", "scanned"], "neededFor": ["visa"] },
+    { "id": "doc18", "title": "Driving school dossier (S12, residence cert, medical cert, photos, stamp)", "stages": ["needed", "received"], "neededFor": ["driving"] }
+  ]
+}

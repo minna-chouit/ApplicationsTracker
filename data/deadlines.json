@@ -1,0 +1,13 @@
+{
+  "deadlines": [
+    { "id": "dl01", "title": "IELTS test", "date": "2026-11-14", "estimated": true, "notes": "Replace with your booked date." },
+    { "id": "dl02", "title": "Polimi 1st call closes (Sept 2027 intake)", "date": "2026-11-09", "estimated": true, "source": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification", "notes": "Only if Polimi confirms eligibility." },
+    { "id": "dl03", "title": "PoliTo 1st call closes", "date": "2027-01-29", "estimated": true, "source": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification", "notes": "Last year: 29 Jan, extended to 13 Feb. Opens ~mid-December." },
+    { "id": "dl04", "title": "Polimi 2nd call closes", "date": "2027-02-26", "estimated": true },
+    { "id": "dl05", "title": "MAECI scholarship deadline", "date": "2027-03-26", "estimated": true, "source": "https://studyinitaly.esteri.it" },
+    { "id": "dl06", "title": "Bologna / Padova / Sapienza non-EU calls", "date": "2027-03-31", "estimated": true, "notes": "Typically Jan–Apr. Confirm each on the official call page." },
+    { "id": "dl07", "title": "PoliTo 2nd call closes", "date": "2027-04-20", "estimated": true },
+    { "id": "dl08", "title": "DSU application (regional)", "date": "2027-09-03", "estimated": true, "notes": "Piedmont 2026: 22 Jul – 4 Sep. Other regions differ." },
+    { "id": "dl09", "title": "Study visa application – last day", "date": "2027-10-31", "estimated": false, "notes": "Apply in June–July: processing can take up to 90 days." }
+  ]
+}

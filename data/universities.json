@@ -1,0 +1,10 @@
+{
+  "universities": [
+    { "id": "u01", "name": "Politecnico di Torino", "city": "Turin", "programmes": ["Computer Engineering (AI track)", "Data Science and Engineering"], "priority": 1, "fee": "€50", "calls": "1st: ~mid-Dec to late Jan/Feb; 2nd: ~Mar to Apr (estimated)", "notes": "Explicit rule for students in 5-year programmes who haven't graduated. Key question: do ENSIA's prep years count? Accepts documents in English/French/Italian/Spanish.", "link": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification" },
+    { "id": "u02", "name": "University of Bologna", "city": "Bologna", "programmes": ["Artificial Intelligence"], "priority": 2, "calls": "Non-EU intake typically Jan–Mar (estimated)", "notes": "Competitive. Asks for a 4–5 page syllabus of main exams. Housing is expensive." },
+    { "id": "u03", "name": "University of Padova", "city": "Padua", "programmes": ["Computer Engineering", "Data Science"], "priority": 2, "calls": "Typically opens ~Feb (estimated)", "notes": "Check the rule on completing your qualification before enrolment." },
+    { "id": "u04", "name": "Sapienza University of Rome", "city": "Rome", "programmes": ["Artificial Intelligence and Robotics", "Data Science", "Computer Science"], "priority": 3, "calls": "International pre-acceptance, several rounds (estimated)" },
+    { "id": "u05", "name": "Politecnico di Milano", "city": "Milan", "programmes": ["Computer Science and Engineering"], "priority": 3, "calls": "1st: Sep–early Nov; 2nd: Jan–late Feb (past pattern)", "notes": "Requires a bachelor's before enrolment; grandes-écoles-style programmes get a slower pre-evaluation. Apply only if they confirm eligibility. Milan is expensive." },
+    { "id": "u06", "name": "University of Pisa", "city": "Pisa", "programmes": ["Computer Science (AI curriculum)"], "priority": 3, "calls": "Spring 2027 (estimated)", "notes": "Cheaper city; Tuscany's DSU is generous." }
+  ]
+}
