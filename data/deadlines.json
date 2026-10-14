@@ -5,7 +5,8 @@
     { "id": "dl03", "title": "PoliTo 1st call closes", "date": "2027-01-29", "estimated": true, "source": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification", "notes": "Last year: 29 Jan, extended to 13 Feb. Opens ~mid-December." },
     { "id": "dl04", "title": "Polimi 2nd call closes", "date": "2027-02-26", "estimated": true },
     { "id": "dl05", "title": "MAECI scholarship deadline", "date": "2027-03-26", "estimated": true, "source": "https://studyinitaly.esteri.it" },
-    { "id": "dl06", "title": "Bologna / Padova / Sapienza non-EU calls", "date": "2027-03-31", "estimated": true, "notes": "Typically Jan–Apr. Confirm each on the official call page." },
+    { "id": "dl06", "title": "Bologna / Padova non-EU calls", "date": "2027-03-31", "estimated": true, "notes": "Typically Jan–Apr. Confirm each on the official call page." },
+    { "id": "dl10", "title": "Sapienza MoveIN pre-selection (visa seekers)", "date": "2027-05-15", "estimated": true, "source": "https://sapienza.gomovein.com", "notes": "2026/27 deadline was 15 May 2026. Then the €10 eligibility check on Infostud by ~15 Sept (only date for visa seekers)." },
     { "id": "dl07", "title": "PoliTo 2nd call closes", "date": "2027-04-20", "estimated": true },
     { "id": "dl08", "title": "DSU application (regional)", "date": "2027-09-03", "estimated": true, "notes": "Piedmont 2026: 22 Jul – 4 Sep. Other regions differ." },
     { "id": "dl09", "title": "Study visa application – last day", "date": "2027-10-31", "estimated": false, "notes": "Apply in June–July: processing can take up to 90 days." }
