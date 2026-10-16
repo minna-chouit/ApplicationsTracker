@@ -543,19 +543,59 @@
     },
     {
       "id": "t063",
-      "week": 2,
-      "date": "2026-10-18",
+      "week": 1,
+      "date": "2026-10-17",
       "category": "applications",
       "title": "Email Padova: can I be admitted before graduating?",
       "details": "To international.admission@unipd.it. Their rule: study cycle completed by 31 July 2027; an official certificate can replace the diploma. Ask: I am in year 4 of a 5-year single-cycle engineering degree (240 ECTS by June 2027, diploma after year 5). Would an official ENSIA certificate of 4 completed years / 240 ECTS satisfy the requirement for Data Science, Computer Engineering or Computer Science in 2027/28? Call 1 closes 15 Nov 2026."
     },
     {
       "id": "t064",
-      "week": 2,
-      "date": "2026-10-18",
+      "week": 1,
+      "date": "2026-10-17",
       "category": "applications",
       "title": "Email Pisa CS: can I apply before graduating?",
       "details": "To mcs_info@di.unipi.it. Same question as Padova: 5-year single-cycle degree, 240 ECTS by June 2027, diploma after year 5. Can I apply for MSc Computer Science (AI track) 2027/28, and by when must I hold the degree? Also ask the minimum CGPA."
+    },
+    {
+      "id": "t065",
+      "week": 1,
+      "date": "2026-10-17",
+      "category": "applications",
+      "title": "List ALL English-taught AI/CS masters in Italy",
+      "details": "Use universitaly.it (Cerca corsi / course search) and studyinitaly.esteri.it. Filter: Laurea Magistrale, taught in English, classes LM-18 (Computer Science), LM-32 (Computer Engineering), LM-91 (Information Technology), Data Science. Write down university + programme + link. Skip ones already in the app (PoliTo, Polimi, Bologna, Padova, Sapienza, Pisa, Trento)."
+    },
+    {
+      "id": "t066",
+      "week": 1,
+      "date": "2026-10-17",
+      "category": "applications",
+      "title": "Run the 5 checks on each new programme",
+      "details": "For each, open the international admission page or last year’s call (bando) and check, stopping at the first fail: 1) degree must be obtained by when? (search: graduating, laureandi, not yet graduated, 180 ECTS, single-cycle, 5-year); 2) minimum GPA and conversion from /20; 3) curricular credits (maths, CS); 4) English / IELTS minimum; 5) non-EU visa deadline, fee, interview. Any with a PoliTo-style rule (no degree needed with ≥180 ECTS) go to the top. Send me the links and I’ll add them to the app."
+    },
+    {
+      "id": "t067",
+      "week": 1,
+      "date": "2026-10-17",
+      "category": "applications",
+      "title": "Padova: find Algeria row in the country GPA table",
+      "details": "On unipd.it/en/entry-title-requirements, open the country PDF and note the entry title and minimum GPA for Algeria."
+    },
+    {
+      "id": "t068",
+      "week": 1,
+      "date": "2026-10-17",
+      "category": "applications",
+      "title": "Pisa: check applymscenglish.unipi.it for the 2027/28 call",
+      "details": "Usually published around November. If it is out, look for: degree deadline for not-yet-graduated applicants, CGPA minimum, application dates."
+    },
+    {
+      "id": "t069",
+      "week": 2,
+      "date": "2026-10-18",
+      "category": "ensia",
+      "title": "Scolarité: ask for a certificate of completed cycle",
+      "details": "Padova accepts an official certificate of a completed study cycle instead of the diploma (deadline 31 July 2027). Ask: « Est-ce que l’ENSIA peut délivrer une attestation officielle de fin de cycle (cycle préparatoire ou 4 années / 240 crédits validés) ? » Also: pick up or follow up on the documents requested on 13–15 Oct, and ask about the intermediate diploma if not answered yet."
     }
   ]
 }
