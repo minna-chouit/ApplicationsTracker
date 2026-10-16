@@ -32,14 +32,16 @@
       "name": "University of Padova",
       "city": "Padua",
       "programmes": [
+        "Data Science",
         "Computer Engineering",
-        "Data Science"
+        "Computer Science",
+        "Cybersecurity"
       ],
       "priority": 2,
-      "calls": "Data Science 2027/28, non-EU abroad: Call 1 15 Sep–15 Nov 2026, Call 2 1 Dec 2026–1 Mar 2027 (confirmed on apply.unipd.it)",
-      "notes": "ONLY STILL-OPEN QUESTION MARK (checked 16 Oct 2026). Data Science: bachelor-level degree with maths, probability and CS courses; case-by-case curriculum review; GPA considered but no minimum stated; English B2; 50 non-EU places. Padova gives a CONDITIONAL offer letter to students not yet graduated, but the deadline to graduate is set per programme and is not published for Data Science. Ask international.admission@unipd.it before Call 1 closes (15 Nov). Computer Engineering: official page not found yet.",
+      "calls": "All four, 2027/28, non-EU abroad: Call 1 15 Sep–15 Nov 2026, Call 2 1 Dec 2026–1 Mar 2027 (confirmed on apply.unipd.it). One application per programme per year.",
+      "notes": "LIKELY NO for 2027 (checked 17 Oct 2026). Padova lets you apply before graduating, but you must complete your study cycle by 31 July 2027 (unipd.it/en/entry-title-requirements). An official certificate of a completed cycle can replace the diploma, so it only works if ENSIA certifies a completed cycle by then. All four programmes: 3-year degree (or equivalent) in the field, English B2, no stated minimum GPA (country table in a PDF), €60 fee, €2,950/yr (ISEE reductions). Data Science: 50 non-EU places. Still ask international.admission@unipd.it (task on 18 Oct).",
       "fee": "€60 application; tuition €2,950/yr (ISEE reductions)",
-      "link": "https://apply.unipd.it/courses/course/33"
+      "link": "https://www.unipd.it/en/entry-title-requirements"
     },
     {
       "id": "u04",
@@ -75,9 +77,21 @@
       ],
       "priority": 3,
       "calls": "Non-EU: ~Nov to ~5 Feb (2026/27: Nov 2025–5 Feb 2026); results ~9 Mar",
-      "notes": "LIKELY NO for 2027 (checked 16 Oct 2026, 2026/27 call). Requires a first-level bachelor degree; visa students must enrol by 31 Dec of the intake year, so the degree is needed by then. Selection on CGPA + exam fit + CV, some candidates interviewed. No CGPA minimum in the CS call (Pisa Cybersecurity requires 75% = 15/20). English B2. Tuscany DSU is generous.",
+      "notes": "LIKELY NO for 2027 (checked 16 Oct 2026, 2026/27 call). Requires a first-level bachelor degree; visa students must enrol by 31 Dec of the intake year, so the degree is needed by then. Selection on CGPA + exam fit + CV, some candidates interviewed. No CGPA minimum in the CS call (Pisa Cybersecurity requires 75% = 15/20). English B2. Tuscany DSU is generous. Contact: mcs_info@di.unipi.it. Portal: applymscenglish.unipi.it.",
       "fee": "€30 per application (max 2)",
       "link": "https://didattica.di.unipi.it/en/master-programme-in-computer-science/international/"
+    },
+    {
+      "id": "u07",
+      "name": "University of Trento",
+      "city": "Trento",
+      "programmes": [
+        "Artificial Intelligence Systems"
+      ],
+      "priority": 3,
+      "calls": "Non-EU: winter–spring (check current call)",
+      "notes": "LIKELY NO for 2027 (checked 17 Oct 2026). Final-year students can apply with an enrolment certificate, but non-EU students must send the degree certificate by ~30 June of the intake year (2025/26: 30 June 2025). English B2. Option for 2028.",
+      "link": "https://international.unitn.it/node/5832"
     }
   ]
 }

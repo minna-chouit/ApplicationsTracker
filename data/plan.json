@@ -547,7 +547,15 @@
       "date": "2026-10-18",
       "category": "applications",
       "title": "Email Padova: can I be admitted before graduating?",
-      "details": "To international.admission@unipd.it. Ask: for MSc Data Science (and Computer Engineering) 2027/28, can a non-EU student in year 4 of a 5-year single-cycle degree (240 ECTS by June 2027, diploma after year 5) get a conditional offer, and by what date must the degree be obtained? Call 1 closes 15 Nov 2026."
+      "details": "To international.admission@unipd.it. Their rule: study cycle completed by 31 July 2027; an official certificate can replace the diploma. Ask: I am in year 4 of a 5-year single-cycle engineering degree (240 ECTS by June 2027, diploma after year 5). Would an official ENSIA certificate of 4 completed years / 240 ECTS satisfy the requirement for Data Science, Computer Engineering or Computer Science in 2027/28? Call 1 closes 15 Nov 2026."
+    },
+    {
+      "id": "t064",
+      "week": 2,
+      "date": "2026-10-18",
+      "category": "applications",
+      "title": "Email Pisa CS: can I apply before graduating?",
+      "details": "To mcs_info@di.unipi.it. Same question as Padova: 5-year single-cycle degree, 240 ECTS by June 2027, diploma after year 5. Can I apply for MSc Computer Science (AI track) 2027/28, and by when must I hold the degree? Also ask the minimum CGPA."
     }
   ]
 }
