@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { addDays, empty, mergeState, planWeek, streaks, tasks, weekday, overdue, habitsOn, ieltsSession, nextDeadlines, todayIn } from './logic'
+import { addDays, deadlines, empty, mergeState, planWeek, streaks, tasks, weekday, overdue, habitsOn, ieltsSession, nextDeadlines, todayIn } from './logic'
 import plan from '../data/plan.json'
 
 describe('dates', () => {
@@ -70,9 +70,11 @@ describe('other', () => {
   it('next deadlines use edited dates', () => {
     const s = empty()
     s.deadlines.dl02 = { date: '2027-01-01', estimated: false }
+    s.deadlines.dl09 = { date: '2026-10-12' } // move a far deadline to tomorrow
     const next = nextDeadlines(s, '2026-10-11', 3)
-    expect(next.map(d => d.id)).toEqual(['dl01', 'dl02', 'dl03'])
-    expect(next[1].estimated).toBe(false)
+    expect(next[0].id).toBe('dl09')
+    expect(next.map(d => d.date)).toEqual([...next.map(d => d.date)].sort())
+    expect(deadlines(s).find(d => d.id === 'dl02')).toMatchObject({ date: '2027-01-01', estimated: false })
   })
   it('imported or stored data is merged onto defaults', () => {
     expect(mergeState({ ielts: [{ id: 'a' }] }).driving.lessons).toEqual([])
