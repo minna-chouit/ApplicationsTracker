@@ -7,7 +7,7 @@ import ielts from '../data/ielts_plan.json'
 export type SeedTask = { id: string; week?: number; date: string; title: string; details?: string; category: string; estimated?: boolean; dependsOn?: string[] }
 export type Task = SeedTask & { week: number; seedDate: string; done: boolean; note: string; custom: boolean }
 export type Habit = { id: string; title: string; details?: string; frequency: string; days: number[]; minutes?: number; from: string; to: string }
-export type Score = { id: string; date: string; l?: number; r?: number; w?: number; s?: number; overall: number }
+export type Score = { id: string; date: string; l?: number; r?: number; w?: number; s?: number; overall?: number; note?: string }
 export type Lesson = { id: string; date: string; minutes: number; what: string }
 
 export type State = {
@@ -96,4 +96,14 @@ export function ieltsSession(d: string) {
   return w && day ? { week: w.week, goal: w.goal, ...day } : undefined
 }
 
-export const uid = (p: string) => `${p}-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`
+/** "6,5" or "6.5" → 6.5; empty → undefined; anything that isn't a 0–9 half band → null. */
+export function parseBand(raw: unknown): number | undefined | null {
+  const t = String(raw ?? '').trim().replace(',', '.')
+  if (!t) return undefined
+  const n = Number(t)
+  return Number.isFinite(n) && n >= 0 && n <= 9 && Number.isInteger(n * 2) ? n : null
+}
+// IELTS overall = mean of the four skills, rounded to the nearest half band (.25 and .75 round up)
+export const band = (xs: number[]) => Math.round((xs.reduce((a, b) => a + b, 0) / xs.length) * 2) / 2
+
+export const uid =(p: string) => `${p}-${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`

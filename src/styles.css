@@ -201,3 +201,4 @@ label.grow input, label.block input { width: 100%; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+.note-row td { border-top: 0; padding-top: 0; color: var(--muted); font-size: .8rem; }

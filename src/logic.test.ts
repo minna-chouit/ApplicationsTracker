@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { addDays, deadlines, empty, mergeState, planWeek, streaks, tasks, weekday, overdue, habitsOn, ieltsSession, nextDeadlines, todayIn } from './logic'
+import { addDays, band, deadlines, empty, parseBand, mergeState, planWeek, streaks, tasks, weekday, overdue, habitsOn, ieltsSession, nextDeadlines, todayIn } from './logic'
 import plan from '../data/plan.json'
 
 describe('dates', () => {
@@ -79,5 +79,21 @@ describe('other', () => {
   it('imported or stored data is merged onto defaults', () => {
     expect(mergeState({ ielts: [{ id: 'a' }] }).driving.lessons).toEqual([])
     expect(() => mergeState('nope')).toThrow()
+  })
+})
+
+describe('ielts scores', () => {
+  it('accepts comma or dot decimals in half bands', () => {
+    expect(parseBand('6,5')).toBe(6.5)
+    expect(parseBand(' 7 ')).toBe(7)
+    expect(parseBand('')).toBeUndefined()
+    expect(parseBand('6.3')).toBeNull() // not a half band
+    expect(parseBand('10')).toBeNull()
+    expect(parseBand('abc')).toBeNull()
+  })
+  it('overall rounds the mean to the nearest half band', () => {
+    expect(band([6.5, 6, 5.5, 6.5])).toBe(6) // 6.125
+    expect(band([6.5, 6.5, 6, 6])).toBe(6.5) // 6.25 rounds up
+    expect(band([7, 7, 6.5, 6.5])).toBe(7) // 6.75 rounds up
   })
 })

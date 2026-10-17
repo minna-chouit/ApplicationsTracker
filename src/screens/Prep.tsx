@@ -1,13 +1,11 @@
-import { useRef, useState, type FormEvent, type ReactNode } from 'react'
+import { Fragment, useRef, useState, type FormEvent, type ReactNode } from 'react'
 import ielts from '../../data/ielts_plan.json'
 import driving from '../../data/driving_plan.json'
-import { KEY, addDays, deadlines, fmt, mergeState, uid, weekday, type Score } from '../logic'
+import { KEY, addDays, band, deadlines, fmt, mergeState, parseBand, uid, weekday, type Score } from '../logic'
 import { useStore } from '../store'
 import { Bar, Card, Est, Header } from '../ui'
 
-const num = (v: FormDataEntryValue | null) => (v === null || v === '' ? undefined : Number(v))
-// IELTS overall = mean of the four skills, rounded to the nearest half band (.25 and .75 round up)
-const band = (xs: number[]) => Math.round((xs.reduce((a, b) => a + b, 0) / xs.length) * 2) / 2
+const SKILLS = { l: 'Listening', r: 'Reading', w: 'Writing', s: 'Speaking', overall: 'Overall' } as const
 
 // ---------- IELTS ----------
 export function Ielts() {
@@ -18,11 +16,15 @@ export function Ielts() {
   const add = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const f = new FormData(e.currentTarget)
-    const parts = { l: num(f.get('l')), r: num(f.get('r')), w: num(f.get('w')), s: num(f.get('s')) }
-    const given = Object.values(parts).filter((x): x is number => x !== undefined)
-    const overall = num(f.get('overall')) ?? (given.length === 4 ? band(given) : undefined)
-    if (overall === undefined) return alert('Enter the overall band, or all four skills.')
-    set(d => { d.ielts.push({ id: uid('s'), date: String(f.get('date')), ...parts, overall }) })
+    // text inputs, so phones with a French/Arabic keyboard can type "6,5"
+    const parsed = Object.fromEntries((Object.keys(SKILLS) as (keyof typeof SKILLS)[]).map(k => [k, parseBand(f.get(k))]))
+    const bad = Object.entries(parsed).filter(([, v]) => v === null).map(([k]) => SKILLS[k as keyof typeof SKILLS])
+    if (bad.length) return alert(`${bad.join(', ')}: use a band from 0 to 9 in steps of 0.5, like 6,5.`)
+    const { l, r, w, s: sp, overall } = parsed as Record<keyof typeof SKILLS, number | undefined>
+    const given = [l, r, w, sp].filter((x): x is number => x !== undefined)
+    if (!given.length && overall === undefined) return alert('Enter at least one score.')
+    const note = String(f.get('note') ?? '').trim()
+    set(d => { d.ielts.push({ id: uid('s'), date: String(f.get('date')), l, r, w, s: sp, overall: overall ?? (given.length === 4 ? band(given) : undefined), ...(note && { note }) }) })
     e.currentTarget.reset()
   }
 
@@ -32,21 +34,25 @@ export function Ielts() {
 
       <Card>
         <h2>Mock scores</h2>
-        <Chart scores={scores} target={ielts.target.overall} />
+        <Chart scores={scores.filter((x): x is Score & { overall: number } => x.overall !== undefined)} target={ielts.target.overall} />
         <form className="form" onSubmit={add}>
           <label>Date <input name="date" type="date" defaultValue={today} required /></label>
-          {(['l', 'r', 'w', 's'] as const).map(k => (
-            <label key={k} className="narrow">{{ l: 'Listening', r: 'Reading', w: 'Writing', s: 'Speaking' }[k]}<input name={k} type="number" min="0" max="9" step="0.5" inputMode="decimal" /></label>
+          {(Object.keys(SKILLS) as (keyof typeof SKILLS)[]).map(k => (
+            <label key={k} className="narrow">{SKILLS[k]}<input name={k} type="text" inputMode="decimal" autoComplete="off" placeholder={k === 'overall' ? 'auto' : ''} /></label>
           ))}
-          <label className="narrow">Overall<input name="overall" type="number" min="0" max="9" step="0.5" inputMode="decimal" placeholder="auto" /></label>
+          <label className="grow">Note <input name="note" placeholder="Quick, untimed…" /></label>
           <button className="btn">Log score</button>
         </form>
+        <p className="muted small">Fill only the skills you tested. Overall is worked out when all four are in.</p>
         {scores.length > 0 && (
           <table className="table">
             <thead><tr><th>Date</th><th>L</th><th>R</th><th>W</th><th>S</th><th>All</th><th><span className="sr">Delete</span></th></tr></thead>
             <tbody>{[...scores].reverse().map(x => (
-              <tr key={x.id}><td>{fmt(x.date)}</td><td>{x.l ?? '–'}</td><td>{x.r ?? '–'}</td><td>{x.w ?? '–'}</td><td>{x.s ?? '–'}</td><td><b>{x.overall}</b></td>
-                <td><button className="link danger" aria-label="Delete score" onClick={() => confirm('Delete this score?') && set(d => { d.ielts = d.ielts.filter(y => y.id !== x.id) })}>×</button></td></tr>
+              <Fragment key={x.id}>
+                <tr><td>{fmt(x.date)}</td><td>{x.l ?? '–'}</td><td>{x.r ?? '–'}</td><td>{x.w ?? '–'}</td><td>{x.s ?? '–'}</td><td><b>{x.overall ?? '–'}</b></td>
+                  <td><button className="link danger" aria-label="Delete score" onClick={() => confirm('Delete this score?') && set(d => { d.ielts = d.ielts.filter(y => y.id !== x.id) })}>×</button></td></tr>
+                {x.note && <tr className="note-row"><td colSpan={7}>{x.note}</td></tr>}
+              </Fragment>
             ))}</tbody>
           </table>
         )}
@@ -76,8 +82,8 @@ export function Ielts() {
   )
 }
 
-function Chart({ scores, target }: { scores: Score[]; target: number }) {
-  if (scores.length === 0) return <p className="muted small">Log your first mock to see the chart.</p>
+function Chart({ scores, target }: { scores: (Score & { overall: number })[]; target: number }) {
+  if (scores.length === 0) return <p className="muted small">The chart shows overall bands. It appears once a test has all four skills or an overall score.</p>
   const W = 320, H = 140, pad = 24, lo = 4, hi = 9
   const x = (i: number) => pad + (scores.length === 1 ? (W - 2 * pad) / 2 : (i * (W - 2 * pad)) / (scores.length - 1))
   const y = (v: number) => H - pad - ((v - lo) / (hi - lo)) * (H - 2 * pad)
