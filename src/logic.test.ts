@@ -38,9 +38,11 @@ describe('tasks', () => {
   it('overdue = unchecked and before today', () => {
     const s = empty()
     s.tasks.t001 = { done: true }
+    s.custom.push({ id: 'u-late', date: '2026-10-12', title: 'Late', category: 'admin' }, { id: 'u-due', date: '2026-10-13', title: 'Due today', category: 'admin' })
     const ids = overdue(tasks(s), '2026-10-13').map(t => t.id)
     expect(ids).not.toContain('t001')
-    expect(ids).toContain('t002')
+    expect(ids).toContain('u-late')
+    expect(ids).not.toContain('u-due')
     expect(ids.every(id => tasks(s).find(t => t.id === id)!.date < '2026-10-13')).toBe(true)
   })
 })
@@ -63,18 +65,18 @@ describe('habits', () => {
 
 describe('other', () => {
   it('ielts session by week and weekday', () => {
-    expect(ieltsSession('2026-10-18')?.focus).toBe('Writing Task 2')
-    expect(ieltsSession('2026-10-17')).toBeUndefined()
-    expect(ieltsSession(addDays('2026-11-08', 7))).toBeUndefined()
+    expect(ieltsSession('2026-11-08')?.focus).toBe('Writing Task 2')
+    expect(ieltsSession('2026-11-07')).toBeUndefined()
+    expect(ieltsSession(addDays('2026-11-29', 7))).toBeUndefined()
   })
   it('next deadlines use edited dates', () => {
     const s = empty()
-    s.deadlines.dl02 = { date: '2027-01-01', estimated: false }
+    s.deadlines.dl03 = { date: '2027-01-01', estimated: false }
     s.deadlines.dl09 = { date: '2026-10-12' } // move a far deadline to tomorrow
     const next = nextDeadlines(s, '2026-10-11', 3)
     expect(next[0].id).toBe('dl09')
     expect(next.map(d => d.date)).toEqual([...next.map(d => d.date)].sort())
-    expect(deadlines(s).find(d => d.id === 'dl02')).toMatchObject({ date: '2027-01-01', estimated: false })
+    expect(deadlines(s).find(d => d.id === 'dl03')).toMatchObject({ date: '2027-01-01', estimated: false })
   })
   it('imported or stored data is merged onto defaults', () => {
     expect(mergeState({ ielts: [{ id: 'a' }] }).driving.lessons).toEqual([])

@@ -1,19 +1,70 @@
 {
-  "hourTargets": { "mandatoryPractice": 30, "realisticBeginner": 45, "theory": 25 },
-  "costEstimateDZD": { "package": "30,000–35,000", "extraHoursNote": "Ask your school for the price per extra hour", "fiscalStamp": 2000 },
+  "hourTargets": {
+    "mandatoryPractice": 30,
+    "realisticBeginner": 45,
+    "theory": 25
+  },
+  "costEstimateDZD": {
+    "package": "30,000–35,000",
+    "extraHoursNote": "Ask your school for the price per extra hour",
+    "fiscalStamp": 2000
+  },
   "stages": [
-    { "id": "d1", "title": "Choose approved school and register", "target": "2026-10-18", "estimated": false },
-    { "id": "d2", "title": "Medical certificate (wilaya-approved doctor)", "target": "2026-10-19", "estimated": false },
-    { "id": "d3", "title": "Theory lessons (25h)", "target": "2026-10-25 to 2026-11-15", "estimated": true },
-    { "id": "d4", "title": "Code exam (oral, ~10 min)", "target": "2026-11-19", "estimated": true, "retakeDelay": "~15 days" },
-    { "id": "d5", "title": "Practical lessons (30h + extra)", "target": "2026-11-22 to 2027-01-30", "estimated": true },
-    { "id": "d6", "title": "Créneau / manoeuvres exam", "target": "2026-12-17", "estimated": true },
-    { "id": "d7", "title": "Circulation (road) exam", "target": "2027-02-01", "estimated": true, "retakeDelay": "~1 month" },
-    { "id": "d8", "title": "Biometric licence produced and collected", "target": "2027-03-07", "estimated": true, "notes": "4–8 weeks production" }
+    {
+      "id": "d1",
+      "title": "Choose approved school and register",
+      "target": "2027-02-07",
+      "estimated": true
+    },
+    {
+      "id": "d2",
+      "title": "Medical certificate (wilaya-approved doctor)",
+      "target": "2027-02-08",
+      "estimated": true
+    },
+    {
+      "id": "d3",
+      "title": "Theory lessons (25h)",
+      "target": "2027-02-14 to 2027-03-07",
+      "estimated": true
+    },
+    {
+      "id": "d4",
+      "title": "Code exam (oral, ~10 min)",
+      "target": "2027-03-11",
+      "estimated": true,
+      "retakeDelay": "~15 days"
+    },
+    {
+      "id": "d5",
+      "title": "Practical lessons (30h + extra)",
+      "target": "2027-03-14 to 2027-05-15",
+      "estimated": true
+    },
+    {
+      "id": "d6",
+      "title": "Créneau / manoeuvres exam",
+      "target": "2027-04-15",
+      "estimated": true
+    },
+    {
+      "id": "d7",
+      "title": "Circulation (road) exam",
+      "target": "2027-05-20",
+      "estimated": true,
+      "retakeDelay": "~1 month"
+    },
+    {
+      "id": "d8",
+      "title": "Biometric licence produced and collected",
+      "target": "2027-07-04",
+      "estimated": true,
+      "notes": "4–8 weeks production"
+    }
   ],
   "notes": [
     "Exam dates are set by the wilaya commission through your school, so the dates here are targets, not guarantees.",
-    "Total time is usually 3–6 months. Starting in October leaves room for one retake at each stage before April.",
+    "Postponed on 21 Oct 2026: no time before February. Starting in February leaves little room for retakes before the June visa season. If February is still too busy, drop it until a later summer.",
     "Avoid April–June: driving schools are saturated before summer, and that's also your visa season.",
     "During January exams, drop to 1 lesson per week rather than stopping completely, so you don't lose the skill.",
     "For a complete beginner, short frequent lessons (2–3 per week) beat long rare ones."

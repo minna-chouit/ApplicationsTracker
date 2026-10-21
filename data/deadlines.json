@@ -3,17 +3,9 @@
     {
       "id": "dl01",
       "title": "IELTS test",
-      "date": "2026-11-14",
+      "date": "2026-12-12",
       "estimated": true,
-      "notes": "Replace with your booked date."
-    },
-    {
-      "id": "dl02",
-      "title": "Polimi 1st call closes (Sept 2027 intake)",
-      "date": "2026-11-09",
-      "estimated": true,
-      "source": "https://www.polimi.it/en/prospective-students/how-to-apply/admission-to-laurea-magistrale/foreign-qualification",
-      "notes": "Only if Polimi confirms eligibility."
+      "notes": "Target. Book the nearest available date and update this."
     },
     {
       "id": "dl03",
@@ -24,12 +16,6 @@
       "notes": "Last year: 29 Jan, extended to 13 Feb. Opens ~mid-December."
     },
     {
-      "id": "dl04",
-      "title": "Polimi 2nd call closes",
-      "date": "2027-02-26",
-      "estimated": true
-    },
-    {
       "id": "dl05",
       "title": "MAECI scholarship deadline",
       "date": "2027-03-26",
@@ -37,43 +23,11 @@
       "source": "https://studyinitaly.esteri.it"
     },
     {
-      "id": "dl11",
-      "title": "Padova (DS, CE, CS, Cyber) – Call 1 closes (non-EU)",
-      "date": "2026-11-15",
-      "estimated": false,
-      "source": "https://apply.unipd.it/courses/course/33-data-science",
-      "notes": "Only if Padova confirms you can be admitted before graduating. Call 2: 1 Dec 2026 – 1 Mar 2027."
-    },
-    {
       "id": "dl12",
       "title": "Padova (DS, CE, CS, Cyber) – Call 2 closes (non-EU)",
       "date": "2027-03-01",
       "estimated": false,
       "source": "https://apply.unipd.it/courses/course/33"
-    },
-    {
-      "id": "dl06",
-      "title": "Bologna AI – intake 1 closes (non-EU)",
-      "date": "2027-01-14",
-      "estimated": true,
-      "source": "https://corsi.unibo.it/2cycle/artificial-intelligence/how-to-enrol",
-      "notes": "Likely not eligible for 2027 (degree needed by 31 Dec). Intake 2 ~25 Feb."
-    },
-    {
-      "id": "dl13",
-      "title": "Pisa Computer Science – non-EU deadline",
-      "date": "2027-02-05",
-      "estimated": true,
-      "source": "https://didattica.di.unipi.it/en/master-programme-in-computer-science/international/",
-      "notes": "Likely not eligible for 2027 (degree needed by enrolment, 31 Dec)."
-    },
-    {
-      "id": "dl10",
-      "title": "Sapienza MoveIN pre-selection (visa seekers)",
-      "date": "2027-05-15",
-      "estimated": true,
-      "source": "https://sapienza.gomovein.com",
-      "notes": "2026/27 deadline was 15 May 2026. Then the €10 eligibility check on Infostud by ~15 Sept (only date for visa seekers)."
     },
     {
       "id": "dl07",

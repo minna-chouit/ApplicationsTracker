@@ -10,15 +10,15 @@
     },
     {
       "id": "p2",
-      "title": "IELTS + driving theory",
-      "from": "2026-10-18",
-      "to": "2026-11-21"
+      "title": "IELTS prep",
+      "from": "2026-11-08",
+      "to": "2026-12-12"
     },
     {
       "id": "p3",
-      "title": "Documents + driving practice",
-      "from": "2026-11-15",
-      "to": "2026-12-12"
+      "title": "Documents + PoliTo application",
+      "from": "2026-11-08",
+      "to": "2026-12-20"
     },
     {
       "id": "p4",
@@ -34,7 +34,7 @@
     },
     {
       "id": "p6",
-      "title": "Scholarships + licence",
+      "title": "Scholarships + driving licence",
       "from": "2027-01-31",
       "to": "2027-03-31"
     },
@@ -68,10 +68,10 @@
     },
     {
       "id": "t002",
-      "week": 1,
-      "date": "2026-10-11",
+      "week": 2,
+      "date": "2026-10-24",
       "category": "ielts",
-      "title": "Check IELTS computer-delivered dates in Algiers",
+      "title": "Check IELTS computer-delivered dates in Algiers (target ~12 Dec)",
       "details": "Pick a date around 14–21 Nov 2026. Results arrive in 3–5 days."
     },
     {
@@ -84,11 +84,11 @@
     },
     {
       "id": "t004",
-      "week": 1,
-      "date": "2026-10-12",
+      "week": 21,
+      "date": "2027-03-01",
       "category": "ensia",
       "title": "Ask ENSIA about remote final-year project",
-      "details": "Can year 5 (100% PFE) be done remotely from Italy? Who supervises? When is the defence? Is there any rule about being enrolled abroad at the same time?"
+      "details": "Wait until PoliTo answers. Then ask the head of studies: can year 5 (100% PFE) be done remotely from Italy? Who supervises? When is the defence? Any rule about being enrolled abroad at the same time?"
     },
     {
       "id": "t005",
@@ -100,48 +100,49 @@
     },
     {
       "id": "t006",
-      "week": 1,
-      "date": "2026-10-14",
+      "week": 4,
+      "date": "2026-11-07",
       "category": "ielts",
       "title": "IELTS diagnostic test (full, timed)",
       "details": "Cambridge IELTS Academic book, one full test. Note your weakest skill."
     },
     {
       "id": "t007",
-      "week": 1,
-      "date": "2026-10-15",
+      "week": 5,
+      "date": "2026-11-08",
       "category": "admin",
-      "title": "Bank: international Visa/Mastercard + passport check",
-      "details": "Needed for application fees. Renew passport if it expires before 2029."
+      "title": "Bank: open your own account + international Visa card",
+      "details": "Ask: documents needed, how long the card takes, that online payments abroad are enabled, and the foreign-currency (devise) balance. You need it for the PoliTo fee (~20 Dec). Also check your passport expires after 2029."
     },
     {
       "id": "t008",
-      "week": 1,
-      "date": "2026-10-16",
+      "week": 17,
+      "date": "2027-02-04",
       "category": "driving",
       "title": "Visit 2–3 approved driving schools",
-      "details": "Compare: package price (~30–35k DZD), schedule fit with classes, car availability, price of extra hours, how fast they get exam slots. Check the school is on the official approved list."
+      "details": "Compare: package price (~30–35k DZD), schedule fit with classes, car availability, price of extra hours, how fast they get exam slots. Check the school is on the official approved list.",
+      "estimated": true
     },
     {
       "id": "t009",
-      "week": 1,
-      "date": "2026-10-16",
+      "week": 2,
+      "date": "2026-10-24",
       "category": "applications",
       "title": "Shortlist programmes",
-      "details": "For each: required background courses, IELTS minimum, fee, call dates. Match against the ENSIA curriculum."
+      "details": "Done for you (21 Oct): read the Universities cards. 2027 = PoliTo; Padova only if ENSIA can certify a completed cycle; Polimi, Sapienza, Bologna, Pisa and Trento need a finished degree by mid/late 2027. Tick this once you have read them."
     },
     {
       "id": "t010",
-      "week": 1,
-      "date": "2026-10-17",
+      "week": 2,
+      "date": "2026-10-23",
       "category": "family",
-      "title": "Talk to family about visa funds",
-      "details": "Visa needs €10,179.85/year shown in a bank account, not recently deposited. Just find out if it's possible and how."
+      "title": "Talk to Mom: visa funds + your own bank card",
+      "details": "Two things. 1) Visa funds: €10,179.85 per year shown in a bank account, built up over time (not a last-minute deposit); a sponsor declaration from her is allowed. Ask whether it is possible and from which account. 2) She wants you to use your own card: agree on the bank visit (planned 8 Nov) and whether her card can pay the first fee if yours is not ready by mid-December."
     },
     {
       "id": "t062",
       "week": 2,
-      "date": "2026-10-19",
+      "date": "2026-10-22",
       "category": "ensia",
       "title": "Ask for the ENSIA documents (person the scolarité referred you to)",
       "details": "18 Oct: the scolarité sent you to someone else, who was not in his office. Go back Monday. Bring a printed copy of the 13 Oct email. Ask for: 1) attestation of the 5-year structure (years 1–2 taught at ENSIA, 30 credits/semester, 240 by end of year 4); 2) attestation de classement; 3) official course descriptions years 1–4, stamped; 4) French or English versions of the relevés (years 1–3) and attestation de scolarité 2026/27. Also ask (decides Polimi): « Est-ce que l'ENSIA délivre un diplôme ou une attestation officielle à la fin de la 3e ou de la 4e année ? » Opening line: « Je vous ai envoyé un e-mail le 13 octobre pour une demande de documents, je voulais savoir si vous l'aviez reçu. » If she asks why: « C'est pour un dossier de candidature à un master. » If she asks where: « Je me renseigne sur plusieurs masters, y compris à l'étranger. Rien n'est encore décidé. » Both are true; keep it short and calm, no need to say more. Before leaving, ask when to come back or whether there's a form, and write the answer in this task's notes."
@@ -149,161 +150,158 @@
     {
       "id": "t011",
       "week": 2,
-      "date": "2026-10-18",
+      "date": "2026-10-24",
       "category": "ielts",
       "title": "Book and pay IELTS Academic (computer-delivered)",
-      "details": "~37,000 DZD. Target date ~14 Nov."
+      "details": "Book the computer-delivered test closest to 12 Dec 2026 (results in 3–5 days, in time for PoliTo). ~37,000 DZD. Then update the IELTS deadline date in the app."
     },
     {
       "id": "t012",
-      "week": 2,
-      "date": "2026-10-18",
+      "week": 18,
+      "date": "2027-02-07",
       "category": "driving",
       "title": "Register at the chosen driving school",
-      "details": "Bring: birth certificate S12, residence certificate, ID copy, 4 biometric photos, fiscal stamp."
+      "details": "Bring: birth certificate S12, residence certificate, ID copy, 4 biometric photos, fiscal stamp.",
+      "estimated": true
     },
     {
       "id": "t013",
-      "week": 2,
-      "date": "2026-10-19",
+      "week": 18,
+      "date": "2027-02-08",
       "category": "driving",
       "title": "Medical certificate from a wilaya-approved doctor",
-      "details": "A normal GP certificate is not accepted."
+      "details": "Any doctor on the wilaya's approved list (médecin agréé). The driving school gives you the list, so do this right after registering. A normal GP certificate is not accepted.",
+      "estimated": true
     },
     {
       "id": "t014",
-      "week": 2,
-      "date": "2026-10-19",
+      "week": 5,
+      "date": "2026-11-09",
       "category": "applications",
       "title": "Ask 2 professors for recommendation letters",
-      "details": "Prefer ML / Deep Learning teachers or courses with your best grades. Ask in person."
+      "details": "Use the 'Recommendation request' template. Ask 2 professors who know your work; ask for the letter by 15 Dec."
     },
     {
       "id": "t015",
-      "week": 2,
-      "date": "2026-10-20",
+      "week": 6,
+      "date": "2026-11-15",
       "category": "applications",
-      "title": "Draft CV (Europass format)"
+      "title": "Draft CV (Europass format)",
+      "details": "Send Claude your current CV (the PDF you attached to the eligibility emails) for a first Europass draft, then fix it."
     },
     {
       "id": "t016",
-      "week": 2,
-      "date": "2026-10-21",
+      "week": 6,
+      "date": "2026-11-21",
       "category": "applications",
-      "title": "Clean up GitHub: top 3 projects with READMEs"
+      "title": "Clean up GitHub: top 3 projects with READMEs",
+      "details": "Pin your 3 best projects. Give each repo a one-line description and topics, a README (what it does, how to run it, a screenshot), add a profile README, and make private anything unfinished you do not want reviewed."
     },
     {
       "id": "t017",
-      "week": 2,
-      "date": "2026-10-22",
+      "week": 5,
+      "date": "2026-11-14",
       "category": "documents",
       "title": "Get quotes from 2–3 sworn translators (Arabic → English)",
       "details": "Ask price per page, turnaround, and whether they're also on the Italian Embassy's list of trusted translators (needed later for Italian translations for visa/DSU)."
     },
     {
       "id": "t018",
-      "week": 2,
-      "date": "2026-10-22",
+      "week": 3,
+      "date": "2026-10-29",
       "category": "ensia",
       "title": "Follow up with scolarité on documents"
     },
     {
       "id": "t019",
-      "week": 2,
-      "date": "2026-10-24",
+      "week": 3,
+      "date": "2026-10-27",
       "category": "applications",
-      "title": "Follow up universities that haven't replied"
+      "title": "PoliTo: follow up if no reply to the 13 Oct email",
+      "details": "PoliTo is now the only 2027 option, so its answer matters most. If nothing by today, reply to your own email: 'Kind reminder of my question below. Thank you.'"
     },
     {
       "id": "t020",
-      "week": 3,
-      "date": "2026-10-25",
+      "week": 19,
+      "date": "2027-02-14",
       "category": "driving",
       "title": "Start code (theory) lessons",
-      "details": "25h of theory, usually 2–4 weeks. Exam is oral, ~10 min."
+      "details": "25h of theory, usually 2–4 weeks. Exam is oral, ~10 min.",
+      "estimated": true
     },
     {
       "id": "t021",
-      "week": 3,
-      "date": "2026-10-26",
+      "week": 7,
+      "date": "2026-11-22",
       "category": "applications",
       "title": "Motivation letter skeleton",
       "details": "Why AI, why Italy, why this programme, best 2 projects, career goal. One page."
     },
     {
       "id": "t022",
-      "week": 3,
-      "date": "2026-10-28",
+      "week": 7,
+      "date": "2026-11-28",
       "category": "documents",
       "title": "Draft course-description document (years 1–4)",
       "details": "3–5 lines of content per course, in English. Bologna wants 4–5 pages for main exams; PoliTo wants official syllabus."
     },
     {
-      "id": "t023",
-      "week": 3,
-      "date": "2026-10-29",
-      "category": "applications",
-      "title": "Decide on Polimi 1st call",
-      "details": "Only if Polimi confirmed eligibility. Otherwise target their 2nd call (Jan–Feb).",
-      "estimated": true
-    },
-    {
       "id": "t024",
-      "week": 4,
-      "date": "2026-11-01",
+      "week": 8,
+      "date": "2026-12-01",
       "category": "documents",
       "title": "Submit course descriptions to ENSIA for stamp/signature"
     },
     {
       "id": "t025",
-      "week": 4,
-      "date": "2026-11-02",
+      "week": 6,
+      "date": "2026-11-16",
       "category": "documents",
       "title": "Send Arabic documents to translator (→ English)",
-      "details": "Transcripts years 1–3, structure attestation, class-rank attestation, attestation de scolarité."
+      "details": "Only for documents ENSIA cannot issue in French or English."
     },
     {
       "id": "t026",
-      "week": 4,
-      "date": "2026-11-04",
+      "week": 8,
+      "date": "2026-12-01",
       "category": "applications",
       "title": "Send CV + reminder to recommenders"
     },
     {
       "id": "t027",
-      "week": 4,
-      "date": "2026-11-06",
+      "week": 8,
+      "date": "2026-12-04",
       "category": "ielts",
       "title": "Full IELTS mock on computer"
     },
     {
       "id": "t028",
-      "week": 5,
-      "date": "2026-11-12",
+      "week": 9,
+      "date": "2026-12-10",
       "category": "ielts",
       "title": "Light review, prepare test-day logistics",
       "details": "ID, route, arrival time."
     },
     {
       "id": "t029",
-      "week": 5,
-      "date": "2026-11-14",
+      "week": 9,
+      "date": "2026-12-12",
       "category": "ielts",
       "title": "IELTS test day",
       "estimated": true
     },
     {
       "id": "t030",
-      "week": 6,
-      "date": "2026-11-18",
+      "week": 10,
+      "date": "2026-12-17",
       "category": "ielts",
       "title": "Check IELTS results; book retake if below 6.5",
       "details": "Retake by early January at the latest."
     },
     {
       "id": "t031",
-      "week": 6,
-      "date": "2026-11-19",
+      "week": 22,
+      "date": "2027-03-11",
       "category": "driving",
       "title": "Code exam",
       "estimated": true,
@@ -311,23 +309,24 @@
     },
     {
       "id": "t032",
-      "week": 6,
-      "date": "2026-11-20",
+      "week": 9,
+      "date": "2026-12-06",
       "category": "applications",
-      "title": "Tailor motivation letter for PoliTo and Bologna"
+      "title": "Tailor motivation letter for PoliTo (and Padova if applying)"
     },
     {
       "id": "t033",
-      "week": 7,
-      "date": "2026-11-22",
+      "week": 23,
+      "date": "2027-03-14",
       "category": "driving",
       "title": "Start driving lessons (2–3 per week)",
-      "details": "Complete beginner: plan for the 30h package plus ~10–20 extra hours."
+      "details": "Complete beginner: plan for the 30h package plus ~10–20 extra hours.",
+      "estimated": true
     },
     {
       "id": "t034",
-      "week": 7,
-      "date": "2026-11-25",
+      "week": 9,
+      "date": "2026-12-06",
       "category": "documents",
       "title": "Collect English translations; scan everything"
     },
@@ -336,21 +335,21 @@
       "week": 8,
       "date": "2026-11-29",
       "category": "applications",
-      "title": "Check whether 2027/28 calls are published",
-      "details": "PoliTo, Bologna, Padova, Sapienza. Update deadlines from estimated to confirmed."
+      "title": "Check whether PoliTo and Pisa 2027/28 calls are published",
+      "details": "PoliTo: dates, documents, and whether the English certificate is needed at application or can come later. Pisa: applymscenglish.unipi.it."
     },
     {
       "id": "t036",
-      "week": 8,
-      "date": "2026-12-03",
+      "week": 10,
+      "date": "2026-12-13",
       "category": "applications",
       "title": "Assemble PoliTo application package",
       "details": "Passport, CV, transcripts + translations, provisional-graduation/structure letter, syllabus, IELTS, optional: rec letters, motivation letter."
     },
     {
       "id": "t037",
-      "week": 10,
-      "date": "2026-12-13",
+      "week": 11,
+      "date": "2026-12-20",
       "category": "applications",
       "title": "Submit PoliTo 1st call application",
       "estimated": true,
@@ -358,32 +357,24 @@
     },
     {
       "id": "t038",
-      "week": 10,
-      "date": "2026-12-17",
+      "week": 27,
+      "date": "2027-04-15",
       "category": "driving",
       "title": "Créneau / manoeuvres exam",
       "estimated": true
     },
     {
       "id": "t039",
-      "week": 11,
-      "date": "2026-12-20",
+      "week": 13,
+      "date": "2027-01-05",
       "category": "applications",
-      "title": "Submit Bologna / Padova / Sapienza as calls open",
-      "estimated": true
-    },
-    {
-      "id": "t040",
-      "week": 12,
-      "date": "2026-12-30",
-      "category": "applications",
-      "title": "Submit Polimi 2nd call (if eligible)",
+      "title": "Padova Call 2 application (only if ENSIA cycle certificate)",
       "estimated": true
     },
     {
       "id": "t041",
-      "week": 12,
-      "date": "2027-01-02",
+      "week": 13,
+      "date": "2027-01-07",
       "category": "applications",
       "title": "All main applications done before exams"
     },
@@ -397,8 +388,8 @@
     },
     {
       "id": "t043",
-      "week": 17,
-      "date": "2027-02-01",
+      "week": 32,
+      "date": "2027-05-20",
       "category": "driving",
       "title": "Circulation (road) exam",
       "estimated": true,
@@ -543,56 +534,24 @@
     },
     {
       "id": "t063",
-      "week": 1,
-      "date": "2026-10-17",
+      "week": 5,
+      "date": "2026-11-08",
       "category": "applications",
-      "title": "Email Padova: can I be admitted before graduating?",
-      "details": "To international.admission@unipd.it. Their rule: study cycle completed by 31 July 2027; an official certificate can replace the diploma. Ask: I am in year 4 of a 5-year single-cycle engineering degree (240 ECTS by June 2027, diploma after year 5). Would an official ENSIA certificate of 4 completed years / 240 ECTS satisfy the requirement for Data Science, Computer Engineering or Computer Science in 2027/28? Call 1 closes 15 Nov 2026."
+      "title": "Decide on Padova (Call 2, by 1 Mar)",
+      "details": "Padova does not pre-check eligibility (reply 19 Oct): you only find out by applying (€60). Their rule: cycle completed by 31 Jul 2027. Apply in Call 2 only if ENSIA gives an official certificate of a completed cycle (asked 22 Oct). Your average meets their Algeria minimum (11/20)."
     },
     {
       "id": "t064",
-      "week": 1,
-      "date": "2026-10-17",
+      "week": 2,
+      "date": "2026-10-24",
       "category": "applications",
       "title": "Email Pisa CS: can I apply before graduating?",
-      "details": "To mcs_info@di.unipi.it. Same question as Padova: 5-year single-cycle degree, 240 ECTS by June 2027, diploma after year 5. Can I apply for MSc Computer Science (AI track) 2027/28, and by when must I hold the degree? Also ask the minimum CGPA."
-    },
-    {
-      "id": "t065",
-      "week": 1,
-      "date": "2026-10-17",
-      "category": "applications",
-      "title": "List ALL English-taught AI/CS masters in Italy",
-      "details": "Use universitaly.it (Cerca corsi / course search) and studyinitaly.esteri.it. Filter: Laurea Magistrale, taught in English, classes LM-18 (Computer Science), LM-32 (Computer Engineering), LM-91 (Information Technology), Data Science. Write down university + programme + link. Skip ones already in the app (PoliTo, Polimi, Bologna, Padova, Sapienza, Pisa, Trento)."
-    },
-    {
-      "id": "t066",
-      "week": 1,
-      "date": "2026-10-17",
-      "category": "applications",
-      "title": "Run the 5 checks on each new programme",
-      "details": "For each, open the international admission page or last year’s call (bando) and check, stopping at the first fail: 1) degree must be obtained by when? (search: graduating, laureandi, not yet graduated, 180 ECTS, single-cycle, 5-year); 2) minimum GPA and conversion from /20; 3) curricular credits (maths, CS); 4) English / IELTS minimum; 5) non-EU visa deadline, fee, interview. Any with a PoliTo-style rule (no degree needed with ≥180 ECTS) go to the top. Send me the links and I’ll add them to the app."
-    },
-    {
-      "id": "t067",
-      "week": 1,
-      "date": "2026-10-17",
-      "category": "applications",
-      "title": "Padova: find Algeria row in the country GPA table",
-      "details": "On unipd.it/en/entry-title-requirements, open the country PDF and note the entry title and minimum GPA for Algeria."
-    },
-    {
-      "id": "t068",
-      "week": 1,
-      "date": "2026-10-17",
-      "category": "applications",
-      "title": "Pisa: check applymscenglish.unipi.it for the 2027/28 call",
-      "details": "Usually published around November. If it is out, look for: degree deadline for not-yet-graduated applicants, CGPA minimum, application dates."
+      "details": "2 minutes: copy the 'Pisa eligibility' template (Templates tab), fill in your name, send to mcs_info@di.unipi.it."
     },
     {
       "id": "t069",
       "week": 2,
-      "date": "2026-10-19",
+      "date": "2026-10-22",
       "category": "ensia",
       "title": "Same visit: ask for a certificate of completed cycle",
       "details": "Padova accepts an official certificate of a completed study cycle instead of the diploma (deadline 31 July 2027). Ask: « Est-ce que l’ENSIA peut délivrer une attestation officielle de fin de cycle (cycle préparatoire ou 4 années / 240 crédits validés) ? » Also: pick up or follow up on the documents requested on 13–15 Oct, and ask about the intermediate diploma if not answered yet."

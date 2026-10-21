@@ -1,6 +1,10 @@
 {
-  "target": { "overall": 6.5, "minEachSkill": 6.0, "stretch": 7.0 },
-  "testDate": "2026-11-14",
+  "target": {
+    "overall": 6.5,
+    "minEachSkill": 6,
+    "stretch": 7
+  },
+  "testDate": "2026-12-12",
   "testDateEstimated": true,
   "materials": [
     "Cambridge IELTS Academic 15–19 (official past papers)",
@@ -12,51 +16,171 @@
   "dailyCore": "Every session: 1 listening section (10 min) + 1 speaking Part 2 cue card recorded and replayed (5 min).",
   "weeks": [
     {
-      "week": 1, "from": "2026-10-18", "goal": "Learn the format and scoring; find your gaps",
+      "week": 1,
+      "from": "2026-11-08",
+      "goal": "Learn the format and scoring; find your gaps",
       "days": [
-        { "day": 0, "focus": "Writing Task 2", "tasks": "Learn the 4-paragraph essay structure. Write one essay, 40 min timed." },
-        { "day": 1, "focus": "Reading", "tasks": "Learn question types (True/False/Not Given, matching headings). 1 passage, 20 min." },
-        { "day": 2, "focus": "Writing Task 1", "tasks": "Learn the overview + key features structure. 1 chart, 20 min." },
-        { "day": 3, "focus": "Listening", "tasks": "1 full test, review every mistake (spelling counts)." },
-        { "day": 4, "focus": "Writing rewrite", "tasks": "Rewrite Sunday's essay using feedback against the band descriptors." },
-        { "day": 5, "focus": "Full mock", "tasks": "Full timed test. Log scores." },
-        { "day": 6, "focus": "Review", "tasks": "Mistake log, useful phrases list, speaking Part 1 topics." }
+        {
+          "day": 0,
+          "focus": "Writing Task 2",
+          "tasks": "Learn the 4-paragraph essay structure. Write one essay, 40 min timed."
+        },
+        {
+          "day": 1,
+          "focus": "Reading",
+          "tasks": "Learn question types (True/False/Not Given, matching headings). 1 passage, 20 min."
+        },
+        {
+          "day": 2,
+          "focus": "Writing Task 1",
+          "tasks": "Learn the overview + key features structure. 1 chart, 20 min."
+        },
+        {
+          "day": 3,
+          "focus": "Listening",
+          "tasks": "1 full test, review every mistake (spelling counts)."
+        },
+        {
+          "day": 4,
+          "focus": "Writing rewrite",
+          "tasks": "Rewrite Sunday's essay using feedback against the band descriptors."
+        },
+        {
+          "day": 5,
+          "focus": "Full mock",
+          "tasks": "Full timed test. Log scores."
+        },
+        {
+          "day": 6,
+          "focus": "Review",
+          "tasks": "Mistake log, useful phrases list, speaking Part 1 topics."
+        }
       ]
     },
     {
-      "week": 2, "from": "2026-10-25", "goal": "Timed practice everywhere; writing feedback loop",
+      "week": 2,
+      "from": "2026-11-15",
+      "goal": "Timed practice everywhere; writing feedback loop",
       "days": [
-        { "day": 0, "focus": "Writing Task 2", "tasks": "Opinion essay, 40 min. Get feedback." },
-        { "day": 1, "focus": "Reading", "tasks": "2 passages, 40 min." },
-        { "day": 2, "focus": "Writing Task 1", "tasks": "Process diagram or map, 20 min." },
-        { "day": 3, "focus": "Speaking", "tasks": "Parts 1–3 with a partner or recorded; time Part 2 at 2 min." },
-        { "day": 4, "focus": "Writing rewrite", "tasks": "Rewrite weakest paragraph from this week." },
-        { "day": 5, "focus": "Full mock", "tasks": "Full timed test. Log scores." },
-        { "day": 6, "focus": "Review", "tasks": "Mistake log; vocabulary for common topics (environment, tech, education)." }
+        {
+          "day": 0,
+          "focus": "Writing Task 2",
+          "tasks": "Opinion essay, 40 min. Get feedback."
+        },
+        {
+          "day": 1,
+          "focus": "Reading",
+          "tasks": "2 passages, 40 min."
+        },
+        {
+          "day": 2,
+          "focus": "Writing Task 1",
+          "tasks": "Process diagram or map, 20 min."
+        },
+        {
+          "day": 3,
+          "focus": "Speaking",
+          "tasks": "Parts 1–3 with a partner or recorded; time Part 2 at 2 min."
+        },
+        {
+          "day": 4,
+          "focus": "Writing rewrite",
+          "tasks": "Rewrite weakest paragraph from this week."
+        },
+        {
+          "day": 5,
+          "focus": "Full mock",
+          "tasks": "Full timed test. Log scores."
+        },
+        {
+          "day": 6,
+          "focus": "Review",
+          "tasks": "Mistake log; vocabulary for common topics (environment, tech, education)."
+        }
       ]
     },
     {
-      "week": 3, "from": "2026-11-01", "goal": "Exam conditions on computer; fix the weakest skill",
+      "week": 3,
+      "from": "2026-11-22",
+      "goal": "Exam conditions on computer; fix the weakest skill",
       "days": [
-        { "day": 0, "focus": "Writing Task 1 + 2", "tasks": "Both tasks back to back, 60 min, typed." },
-        { "day": 1, "focus": "Reading", "tasks": "Full reading section, 60 min, on screen." },
-        { "day": 2, "focus": "Weakest skill", "tasks": "Extra practice on your lowest-scoring skill." },
-        { "day": 3, "focus": "Speaking", "tasks": "Full mock speaking, recorded. Check fluency and range." },
-        { "day": 4, "focus": "Writing rewrite", "tasks": "Rewrite one Task 2 for band 7 vocabulary and cohesion." },
-        { "day": 5, "focus": "Full mock (computer)", "tasks": "Full timed test typed on computer. Log scores." },
-        { "day": 6, "focus": "Review", "tasks": "Mistake log review." }
+        {
+          "day": 0,
+          "focus": "Writing Task 1 + 2",
+          "tasks": "Both tasks back to back, 60 min, typed."
+        },
+        {
+          "day": 1,
+          "focus": "Reading",
+          "tasks": "Full reading section, 60 min, on screen."
+        },
+        {
+          "day": 2,
+          "focus": "Weakest skill",
+          "tasks": "Extra practice on your lowest-scoring skill."
+        },
+        {
+          "day": 3,
+          "focus": "Speaking",
+          "tasks": "Full mock speaking, recorded. Check fluency and range."
+        },
+        {
+          "day": 4,
+          "focus": "Writing rewrite",
+          "tasks": "Rewrite one Task 2 for band 7 vocabulary and cohesion."
+        },
+        {
+          "day": 5,
+          "focus": "Full mock (computer)",
+          "tasks": "Full timed test typed on computer. Log scores."
+        },
+        {
+          "day": 6,
+          "focus": "Review",
+          "tasks": "Mistake log review."
+        }
       ]
     },
     {
-      "week": 4, "from": "2026-11-08", "goal": "Final mock, then taper",
+      "week": 4,
+      "from": "2026-11-29",
+      "goal": "Final mock, then taper",
       "days": [
-        { "day": 0, "focus": "Full mock", "tasks": "Last full timed test." },
-        { "day": 1, "focus": "Review", "tasks": "Go through the mock's mistakes only." },
-        { "day": 2, "focus": "Writing", "tasks": "One Task 2, then stop writing practice." },
-        { "day": 3, "focus": "Light", "tasks": "Listening section + speaking warm-up only." },
-        { "day": 4, "focus": "Rest", "tasks": "Logistics: ID, route, sleep early." },
-        { "day": 5, "focus": "Rest", "tasks": "Light speaking warm-up." },
-        { "day": 6, "focus": "Test day", "tasks": "Good luck." }
+        {
+          "day": 0,
+          "focus": "Full mock",
+          "tasks": "Last full timed test."
+        },
+        {
+          "day": 1,
+          "focus": "Review",
+          "tasks": "Go through the mock's mistakes only."
+        },
+        {
+          "day": 2,
+          "focus": "Writing",
+          "tasks": "One Task 2, then stop writing practice."
+        },
+        {
+          "day": 3,
+          "focus": "Light",
+          "tasks": "Listening section + speaking warm-up only."
+        },
+        {
+          "day": 4,
+          "focus": "Rest",
+          "tasks": "Logistics: ID, route, sleep early."
+        },
+        {
+          "day": 5,
+          "focus": "Rest",
+          "tasks": "Light speaking warm-up."
+        },
+        {
+          "day": 6,
+          "focus": "Test day",
+          "tasks": "Good luck."
+        }
       ]
     }
   ]
