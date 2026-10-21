@@ -11,10 +11,10 @@ export type Score = { id: string; date: string; l?: number; r?: number; w?: numb
 export type Lesson = { id: string; date: string; minutes: number; what: string }
 
 export type State = {
-  tasks: Record<string, { done?: boolean; note?: string; date?: string }>
+  tasks: Record<string, { done?: boolean; note?: string; date?: string; base?: string }> // base = plan date when you edited
   custom: SeedTask[]
   habits: Record<string, string[]> // habit id -> checked dates
-  deadlines: Record<string, { date?: string; estimated?: boolean; source?: string }>
+  deadlines: Record<string, { date?: string; base?: string; estimated?: boolean; source?: string }>
   docs: Record<string, { stage?: string; note?: string }>
   unis: Record<string, { eligibility?: string; status?: Record<string, string>; notes?: string }>
   ielts: Score[]
@@ -47,11 +47,20 @@ export const fmt = (d: string, opts: Intl.DateTimeFormatOptions = { day: 'numeri
   new Date(ms(d)).toLocaleDateString('en-GB', { ...opts, timeZone: 'UTC' })
 
 // ---------- tasks ----------
+/** Your edited date, unless the plan date changed after you edited it (then the newer plan wins). */
+export function ownDate(u: { date?: string; base?: string }, planDate: string) {
+  if (!u.date) return undefined
+  if (u.base !== undefined) return u.base === planDate ? u.date : undefined
+  // ponytail: edits made before `base` existed: keep them only if they are later than the plan date
+  return u.date > planDate ? u.date : undefined
+}
+
+// ---------- tasks ----------
 export function tasks(s: State): Task[] {
   const all = [...(plan.tasks as SeedTask[]).map(t => ({ ...t, custom: false })), ...s.custom.map(t => ({ ...t, custom: true }))]
   return all.map(t => {
     const u = s.tasks[t.id] ?? {}
-    const date = u.date || t.date
+    const date = ownDate(u, t.date) || t.date
     // keep the seed week unless the date was moved
     const week = date === t.date && t.week ? t.week : planWeek(date)
     return { ...t, date, week, seedDate: t.date, done: !!u.done, note: u.note ?? '' }
@@ -83,7 +92,7 @@ export function deadlines(s: State): Deadline[] {
   return deadlinesSeed.deadlines
     .map(d => {
       const u = s.deadlines[d.id] ?? {}
-      return { ...d, seedDate: d.date, date: u.date || d.date, estimated: u.estimated ?? d.estimated, source: u.source ?? d.source }
+      return { ...d, seedDate: d.date, date: ownDate(u, d.date) || d.date, estimated: u.estimated ?? d.estimated, source: u.source ?? d.source }
     })
     .sort((a, b) => a.date.localeCompare(b.date))
 }

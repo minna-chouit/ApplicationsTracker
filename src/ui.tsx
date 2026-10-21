@@ -73,8 +73,8 @@ export function TaskRow({ t, full, isOverdue }: { t: Task; full?: boolean; isOve
             <summary><span className="task-title">{t.title}</span>{meta}</summary>
             {t.details && <p className="details">{t.details}</p>}
             <div className="task-edit">
-              <label>Date <input type="date" value={t.date} onChange={e => e.target.value && upd({ date: e.target.value })} /></label>
-              {t.date !== t.seedDate && <small className="muted">planned {fmt(t.seedDate)} <button className="link" onClick={() => upd({ date: undefined })}>reset</button></small>}
+              <label>Date <input type="date" value={t.date} onChange={e => e.target.value && upd({ date: e.target.value, base: t.seedDate })} /></label>
+              {t.date !== t.seedDate && <small className="muted">planned {fmt(t.seedDate)} <button className="link" onClick={() => upd({ date: undefined, base: undefined })}>reset</button></small>}
               <label className="grow">Notes <textarea rows={2} value={t.note} onChange={e => upd({ note: e.target.value })} /></label>
               {t.custom && <button className="link danger" onClick={() => set(d => { d.custom = d.custom.filter(c => c.id !== t.id); delete d.tasks[t.id] })}>Delete task</button>}
             </div>

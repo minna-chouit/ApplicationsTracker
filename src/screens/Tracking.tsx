@@ -73,7 +73,7 @@ export function Deadlines() {
               <details className="edit">
                 <summary>Edit</summary>
                 <div className="form">
-                  <label>Date <input type="date" value={d.date} onChange={e => e.target.value && upd(d.id, { date: e.target.value })} /></label>
+                  <label>Date <input type="date" value={d.date} onChange={e => e.target.value && upd(d.id, { date: e.target.value, base: d.seedDate })} /></label>
                   <label className="check"><input type="checkbox" checked={!d.estimated} onChange={e => upd(d.id, { estimated: !e.target.checked })} /> Confirmed</label>
                   <label className="grow">Source <input type="url" placeholder="https://" value={d.source ?? ''} onChange={e => upd(d.id, { source: e.target.value })} /></label>
                 </div>

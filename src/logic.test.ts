@@ -71,8 +71,8 @@ describe('other', () => {
   })
   it('next deadlines use edited dates', () => {
     const s = empty()
-    s.deadlines.dl03 = { date: '2027-01-01', estimated: false }
-    s.deadlines.dl09 = { date: '2026-10-12' } // move a far deadline to tomorrow
+    s.deadlines.dl03 = { date: '2027-01-01', base: '2027-01-29', estimated: false }
+    s.deadlines.dl09 = { date: '2026-10-12', base: '2027-10-31' } // move a far deadline to tomorrow
     const next = nextDeadlines(s, '2026-10-11', 3)
     expect(next[0].id).toBe('dl09')
     expect(next.map(d => d.date)).toEqual([...next.map(d => d.date)].sort())
@@ -97,5 +97,26 @@ describe('ielts scores', () => {
     expect(band([6.5, 6, 5.5, 6.5])).toBe(6) // 6.125
     expect(band([6.5, 6.5, 6, 6])).toBe(6.5) // 6.25 rounds up
     expect(band([7, 7, 6.5, 6.5])).toBe(7) // 6.75 rounds up
+  })
+})
+
+describe('date overrides vs plan updates', () => {
+  const seed = tasks(empty()).find(t => t.id === 't007')! // seed date 2026-11-08
+  it('a date you set sticks while the plan date is unchanged', () => {
+    const s = empty()
+    s.tasks.t007 = { date: '2026-11-20', base: seed.seedDate }
+    expect(tasks(s).find(t => t.id === 't007')!.date).toBe('2026-11-20')
+  })
+  it('a newer plan date wins over an older edit', () => {
+    const s = empty()
+    s.tasks.t007 = { date: '2026-10-18', base: '2026-10-15' } // edited when the plan said 15 Oct
+    expect(tasks(s).find(t => t.id === 't007')!.date).toBe(seed.seedDate)
+  })
+  it('old edits without a base give way when the plan was pushed later', () => {
+    const s = empty()
+    s.tasks.t007 = { date: '2026-10-18' }
+    expect(tasks(s).find(t => t.id === 't007')!.date).toBe(seed.seedDate)
+    s.tasks.t007 = { date: '2026-12-01' } // you postponed it beyond the plan: keep yours
+    expect(tasks(s).find(t => t.id === 't007')!.date).toBe('2026-12-01')
   })
 })
