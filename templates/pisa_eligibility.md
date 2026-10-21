@@ -12,7 +12,7 @@ I am a non-EU student in year 4 of a 5-year single-cycle engineering degree in A
 Could you please tell me:
 
 1. Whether I can apply to the MSc in Computer Science (Artificial Intelligence track) for 2027/28, and by what date the degree must be obtained;
-2. Whether there is a minimum CGPA. My average is about 12/20.
+2. Whether there is a minimum CGPA. My average is [your average]/20.
 
 Kind regards,
 [Name]
